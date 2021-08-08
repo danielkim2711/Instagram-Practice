@@ -48,13 +48,11 @@ body {
   margin: 0;
   margin-bottom: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(3, 0.1fr);
+  grid-template: repeat(3, 150px) / repeat(3, 145px);
+  justify-items: stretch;
+  align-items: stretch;
   justify-content: center;
   gap: 2px;
-}
-.photo-container img {
-  width: 10vw;
-  height: 22vh;
 }
 .button {
   background-color: rgb(80, 150, 230);
