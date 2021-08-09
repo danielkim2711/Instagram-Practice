@@ -103,3 +103,48 @@ body {
   font-family: Arial;
   font-size: 0.8rem;
 }
+@media screen and (max-width: 768px) {
+  .logo-one {
+    margin-left: 1rem;
+    width: 10vw;
+    height: 4.5vh;
+  }
+  .symbol {
+    margin: 0;
+    margin-left: 0.5rem;
+  }
+  .logo-two {
+    width: 28vw;
+    height: 8vh;
+    margin-left: 0.5rem;
+  }
+  .profile-picture {
+    width: 10vw;
+    height: 5vh;
+  }
+  .profile-picture-one {
+    margin-left: 8rem;
+  }
+  .header-container {
+    margin-bottom: 0.5rem;
+  }
+  .gallery-container {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    grid-template: repeat(3, 120px) / repeat(3, 115px);
+  }
+  .section-text-container {
+    width: 80vw;
+  }
+  .like-profile {
+    height: 28vh;
+  }
+  .like-image {
+    width: 15vw;
+    height: 7vh;
+  }
+  .footer-logo {
+    width: 47vw;
+    height: 1.5vh;
+  }
+}
