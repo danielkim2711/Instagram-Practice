@@ -131,7 +131,7 @@ body {
   .gallery-container {
     margin: 0;
     margin-bottom: 0.5rem;
-    grid-template: repeat(3, 120px) / repeat(3, 130px);
+    grid-template: repeat(3, 120px) / repeat(3, 115px);
   }
   .section-text-container {
     width: 80vw;
