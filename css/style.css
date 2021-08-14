@@ -4,58 +4,58 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0.5rem;
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
+  margin: 0.5rem;
   text-align: center;
 }
 .font {
-  margin: 0;
-  margin-top: 0.5rem;
   font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin: 0;
 }
 .header-container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 1.5rem;
 }
 .logo-container {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .logo-one {
-  width: 2vw;
   height: 4.5vh;
+  width: 2vw;
 }
 .symbol {
-  margin: 0;
   margin-left: 1rem;
+  margin: 0;
 }
 .logo-two {
-  width: 8vw;
   height: 8vh;
   margin-left: 1rem;
+  width: 8vw;
 }
 .profile-picture {
-  width: 3vw;
   height: 6vh;
+  width: 3vw;
 }
 .profile-picture-one {
   margin-left: 13rem;
 }
 .gallery-container {
-  margin: 0;
-  margin-bottom: 0.5rem;
-  display: grid;
-  grid-template: repeat(3, 150px) / repeat(3, 145px);
   align-items: stretch;
-  justify-content: center;
+  display: grid;
   gap: 2px;
+  grid-template: repeat(3, 150px) / repeat(3, 145px);
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  margin: 0;
 }
 .gallery-container img {
-  width: 100%;
   object-fit: cover;
+  width: 100%;
 }
 .button {
   background-color: rgb(80, 150, 230);
@@ -67,9 +67,9 @@ body {
   padding: 15px;
 }
 .section-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .section-text-container {
   width: 30vw;
@@ -78,15 +78,15 @@ body {
   margin-top: 2rem;
 }
 .like-profile {
-  height: 33vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 33vh;
 }
 .like-image {
-  width: 4vw;
   height: 8vh;
   margin-top: 1rem;
+  width: 4vw;
 }
 .profile-picture-two {
   margin-top: 1rem;
@@ -95,8 +95,8 @@ body {
   color: rgb(150, 150, 150);
 }
 .footer-logo {
-  width: 15vw;
   height: 2vh;
+  width: 15vw;
 }
 .footer-copyright {
   color: rgb(175, 175, 175);
@@ -105,22 +105,22 @@ body {
 }
 @media screen and (max-width: 768px) {
   .logo-one {
+    height: 4.5vh;
     margin-left: 1rem;
     width: 10vw;
-    height: 4.5vh;
   }
   .symbol {
-    margin: 0;
     margin-left: 0.5rem;
+    margin: 0;
   }
   .logo-two {
-    width: 28vw;
     height: 8vh;
     margin-left: 0.5rem;
+    width: 28vw;
   }
   .profile-picture {
-    width: 10vw;
     height: 5vh;
+    width: 10vw;
   }
   .profile-picture-one {
     margin-left: 8rem;
@@ -129,9 +129,9 @@ body {
     margin-bottom: 0.5rem;
   }
   .gallery-container {
-    margin: 0;
-    margin-bottom: 0.5rem;
     grid-template: repeat(3, 120px) / repeat(3, 115px);
+    margin-bottom: 0.5rem;
+    margin: 0;
   }
   .section-text-container {
     width: 80vw;
@@ -140,11 +140,11 @@ body {
     height: 28vh;
   }
   .like-image {
-    width: 15vw;
     height: 7vh;
+    width: 15vw;
   }
   .footer-logo {
-    width: 47vw;
     height: 1.5vh;
+    width: 47vw;
   }
 }
