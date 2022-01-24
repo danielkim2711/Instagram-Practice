@@ -1,2 +1,2 @@
 # Instagram Clone
-https://danielkim2711.github.io/Instagram-Practice
+https://danielkim2711.github.io/instagram-clone
